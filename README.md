@@ -14,5 +14,4 @@ npm start
 # или
 npm run serve
 
-
-https://i.ibb.co/pZcLh8p/arch.png
+<img src ="https://i.ibb.co/pZcLh8p/arch.png" >
