@@ -2,7 +2,7 @@ task_.txt
 node_modules
 desktop.ini
 /dist
-/old
+/src/old
 
 # local env files
 .env.local
