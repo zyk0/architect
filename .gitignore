@@ -1,0 +1,17 @@
+task_.txt
+node_modules
+desktop.ini
+/dist
+/old
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+
+
+# Editor directories and filess
+.vscode
+

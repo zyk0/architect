@@ -1,0 +1,29 @@
+﻿
+table {
+  width: 60%;
+  line-height: 1.5em;
+  border-collapse: separate;
+  border-spacing: 0px 10px;
+  thead th {
+    padding: 5px 0px 0px 0px;
+    white-space: nowrap;
+    font-size: 22px;
+    cursor: pointer;
+  }
+  td {
+    padding: 20px;
+  }
+  
+  thead{
+	background-color: #000000;
+	margin: 10px 0px 10px 0px;
+	padding: 10px 0px 10px 0px;
+  }
+  
+  tbody tr {
+    background-color: #000000;
+    font-weight: 600;
+    box-shadow: 0 30px 30px rgba(0,0,0,.02);
+
+  }
+}
