@@ -1,71 +1,69 @@
-﻿
-.container-lamina {
-  display: flex;
-  justify-content: center;
-  align-self: center;
-  min-height: 100vh;
-  background: #222222;
-	
-  position: relative;
-  max-width: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-template-rows: minmax(100px, auto);
-  margin: 0px 0px 0px 0px;
-  grid-auto-flow: dense;
-  grid-gap: 2px;
+﻿.container-lamina {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    min-height: 100vh;
+    background: #222222;
+
+    position: relative;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-rows: minmax(100px, auto);
+    margin: 0px 0px 0px 0px;
+    grid-auto-flow: dense;
+    grid-gap: 2px;
 }
 
 .container-lamina .box-lamina {
-  color: #929796;
-  background: #333333;
-  padding: 10px;
-  display: grid;
-  font-size: 20px;
-  place-items: center;
-  text-align: center;
-  color: #ffffff;
-  transition: 0.5s;
+    color: #929796;
+    background: #333333;
+    padding: 10px;
+    display: grid;
+    font-size: 20px;
+    place-items: center;
+    text-align: center;
+    color: #ffffff;
+    transition: 0.5s;
 }
 
 .container-lamina .box-lamina:hover {
-  background: #707070;
+    background: #707070;
 }
 
 .container-lamina .box-lamina img {
-  position: relative;
-  max-width: 90%;
-  margin-bottom: 5px;
+    position: relative;
+    max-width: 90%;
+    margin-bottom: 5px;
 }
 
 .container-lamina .box-lamina:nth-child(1) {
-  grid-column: span 2;
-  grid-row: span 1;
+    grid-column: span 2;
+    grid-row: span 1;
 }
 
 .container-lamina .box-lamina:nth-child(2) {
-  grid-column: span 1;
-  grid-row: span 2;
+    grid-column: span 1;
+    grid-row: span 2;
 }
 
 .container-lamina .box-lamina:nth-child(4) {
-  grid-column: span 1;
-  grid-row: span 2;
+    grid-column: span 1;
+    grid-row: span 2;
 }
 
 .container-lamina .box-lamina:nth-child(5) {
-  grid-column: span 3;
-  grid-row: span 1;
+    grid-column: span 3;
+    grid-row: span 1;
 }
 
-
 @media (max-width: 799px) {
-  .container-lamina {
-    grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
-    grid-template-rows: minmax(auto, auto);
-  }
-  .container-lamina .box-lamina {
-    grid-column: unset !important;
-    grid-row: unset !important;
-  }
+    .container-lamina {
+        grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+        grid-template-rows: minmax(auto, auto);
+    }
+    .container-lamina .box-lamina {
+        grid-column: unset !important;
+        grid-row: unset !important;
+    }
 }

@@ -1,21 +1,21 @@
-﻿import Vue from 'vue';
-import App from './App.vue';
-import router from './routes.js';
-import store from './store/index.js';
-import Vuelidate from 'vuelidate';
+﻿import Vue from "vue";
+import App from "./App.vue";
+import router from "./routes.js";
+import store from "./store/index.js";
+import Vuelidate from "vuelidate";
 
 import * as Sentry from "@sentry/vue";
 //import { Integrations } from "@sentry/tracing";
 
 // style
-import './style/scss/reset.scss';
-import './style/scss/main.scss';
-import './style/scss/home.scss';
-import './style/scss/glitch.scss'; 
-import './style/scss/lattice.scss';
-import './style/scss/lamina.scss';
+import "./style/scss/reset.scss";
+import "./style/scss/main.scss";
+import "./style/scss/home.scss";
+import "./style/scss/glitch.scss";
+import "./style/scss/lattice.scss";
+import "./style/scss/lamina.scss";
 
-Vue.config.productionTip = false
+Vue.config.productionTip = false;
 
 Vue.use(Vuelidate);
 //Vue.use(VueAxios, axios)
@@ -33,7 +33,7 @@ Sentry.init({
 });
 */
 new Vue({
-  router: router,
-  store: store,
-  render: (h) => h(App),
-}).$mount('#app');
+    router: router,
+    store: store,
+    render: (h) => h(App),
+}).$mount("#app");

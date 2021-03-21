@@ -1,21 +1,21 @@
 ﻿.status {
-  margin-right: 10px;
-  &:before {
-    display: inline-block;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-  }
-  &.false {
-    color: #ff5722;
+    margin-right: 10px;
     &:before {
-      background: #ff5722;
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
     }
-  }
-  &.true {
-    color: #8bc34a;
-    &:before {
-      background: #8bc34a;
+    &.false {
+        color: #ff5722;
+        &:before {
+            background: #ff5722;
+        }
     }
-  }
+    &.true {
+        color: #8bc34a;
+        &:before {
+            background: #8bc34a;
+        }
+    }
 }

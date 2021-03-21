@@ -1,16 +1,16 @@
-﻿import Vue from 'vue';
-import Vuex from 'vuex';
+﻿import Vue from "vue";
+import Vuex from "vuex";
 
-import intelligence from '@/store/intelligence';
+import intelligence from "@/store/intelligence";
 
-Vue.use(Vuex)
+Vue.use(Vuex);
 
 export default new Vuex.Store({
-  state: {},
-  mutations: {},
-  actions: {},
-  getters: {},
-  modules: {
-	  intelligence
-  }
-})
+    state: {},
+    mutations: {},
+    actions: {},
+    getters: {},
+    modules: {
+        intelligence,
+    },
+});

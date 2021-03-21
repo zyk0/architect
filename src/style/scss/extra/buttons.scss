@@ -1,32 +1,32 @@
 ﻿.btn {
-  display: inline-block;
-  padding: .8em 2em;
-  line-height: 1;
-  text-transform: uppercase;
-  cursor: pointer;
-  border-radius: 0px;
+    display: inline-block;
+    padding: 0.8em 2em;
+    line-height: 1;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 0px;
 
-  &.btnDefaul {
-    color: #ffffff;
-    border: 1px solid #333333;
-    background-color: #333333;
-  }
+    &.btnDefaul {
+        color: #ffffff;
+        border: 1px solid #333333;
+        background-color: #333333;
+    }
 
-  &.btnPrimary {
-    color: #ffffff;
-    border: 1px solid #4c4e52;
-    background-color: #4c4e52;
-  }
+    &.btnPrimary {
+        color: #ffffff;
+        border: 1px solid #4c4e52;
+        background-color: #4c4e52;
+    }
 
-  &.btnDanger {
-    color: #ffffff;
-    border: 1px solid hsl(0, 48%, 48%);
-    background-color: #b53f3f;
-  }
+    &.btnDanger {
+        color: #ffffff;
+        border: 1px solid hsl(0, 48%, 48%);
+        background-color: #b53f3f;
+    }
 
-  &.btnWhite {
-    color: #333333;
-    border: 1px solid #ffffff;
-    background-color: #ffffff;
-  }
+    &.btnWhite {
+        color: #333333;
+        border: 1px solid #ffffff;
+        background-color: #ffffff;
+    }
 }
